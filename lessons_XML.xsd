@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="lessons">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="subject"
+                        minOccurs="1"
+                        maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="name" type="xs:string"/>
+                        <xs:element name="LastNameTeacher" type="xs:string"/>
+                        <xs:element name="DateStart" type="xs:date"/>
+                        <xs:element name="DateEnd" type="xs:date"/>
+                        <xs:element name="TimeStart" type="xs:time"/>
+                        <xs:element name="TimeEnd" type="xs:time"/>
+                        <xs:element name="End" type="xs:string"/>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:ID"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

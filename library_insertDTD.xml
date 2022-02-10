@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE library[
+<!ELEMENT library (book_catalog, author_catalog)>
+
+<!ELEMENT book_catalog (book*)>
+<!ELEMENT book (authors?, title, publishing, annotation?)>
+<!ELEMENT authors (author+)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT publishing (#PCDATA)>
+<!ELEMENT annotation (#PCDATA)>
+
+<!ELEMENT author_catalog (author_book*)>
+<!ELEMENT author_book (#PCDATA)>
+
+<!ATTLIST book 
+	id ID #REQUIRED
+	isbn CDATA #IMPLIED
+	year CDATA #REQUIRED 
+	issue (translation | original) "translation">  
+
+	<!ATTLIST author_book  idref IDREF #REQUIRED>
+
+<!ENTITY linux "Linux">
+<!ENTITY internet "Internet">
+]>
+
+<library>
+    <book_catalog>
+        <book id="a" isbn="12435" year="2005" issue="translation"><!--0 или много-->
+            <authors>
+                <author>Ричард Петерсен</author><!--1 или много-->
+            </authors><!--0 или 1-->
+            <title>&linux;. Полное руководство.</title>
+            <publishing>Fila</publishing>
+            <annotation>Книга является третьим, дополненным изданием популярного полного справочного руководства по Linux.</annotation><!--0 или 1-->
+        </book>
+        <book id="b" isbn="12674" year="2012" issue="original"><!--0 или много-->
+            <authors>
+                <author>Брюс Шнайер</author>
+                <author>Джон Барл</author><!--1 или много-->
+            </authors><!--0 или 1-->
+            <title>&internet;. История развития.</title>
+            <publishing>Альфа</publishing>
+        </book>
+        <book id="c" isbn="4657" year="2020" issue="original"><!--0 или много-->
+            <title>HTML5 Standard.</title>
+            <publishing>Интернет-ресурс</publishing>
+        </book>
+    </book_catalog>
+    <author_catalog>
+        <author_book idref="a">Ричард Петерсен</author_book><!--0 или много-->
+        <author_book idref="b">Брюс Шнайер</author_book>
+        <author_book idref="b">Джон Барл</author_book>
+    </author_catalog>
+</library>

@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE lessons SYSTEM "lessons_DTD.dtd">
+<lessons >
+    <subject id="a">
+        <name>Основы технологий разетки (HTML и XML)</name>
+        <LastNameTeacher>Кузьмин</LastNameTeacher>
+        <DateStart>03.02.2022</DateStart>
+        <DateEnd>08.02.2022</DateEnd>
+        <TimeStart>18-30</TimeStart>
+        <TimeEnd>21-50</TimeEnd>
+        <End>Зачет</End>
+    </subject>
+
+    <subject id="b">
+        <name>Transact-SQL</name>
+        <LastNameTeacher>Ямщиков</LastNameTeacher>
+        <DateStart>10.01.2022</DateStart>
+        <DateEnd>31.01.2022</DateEnd>
+        <TimeStart>18-30</TimeStart>
+        <TimeEnd>21-50</TimeEnd>
+        <End>Экзамен</End>
+    </subject>
+
+    <subject id="с">
+        <name>Разработка Windows-приложений на C#</name>
+        <LastNameTeacher>Осипов</LastNameTeacher>
+        <DateStart>09.12.2021</DateStart>
+        <DateEnd>29.12.2021</DateEnd>
+        <TimeStart>18-30</TimeStart>
+        <TimeEnd>21-50</TimeEnd>
+        <End>Экзамен</End>
+    </subject>
+
+    <subject id="d">
+        <name>Программирование на C#</name>
+        <LastNameTeacher>Осипов</LastNameTeacher>
+        <DateStart>11.11.2021</DateStart>
+        <DateEnd>07.12.2021</DateEnd>
+        <TimeStart>18-30</TimeStart>
+        <TimeEnd>21-50</TimeEnd>
+        <End>Зачет</End>
+    </subject>
+
+    <subject id="e">
+        <name>Технологии программирования</name>
+        <LastNameTeacher>Смольянинов</LastNameTeacher>
+        <DateStart>06.10.2021</DateStart>
+        <DateEnd>26.10.2021</DateEnd>
+        <TimeStart>18-30</TimeStart>
+        <TimeEnd>21-50</TimeEnd>
+        <End>Зачет</End>
+    </subject>
+
+    <subject id="f">
+        <name>Введение в базы данных</name>
+        <LastNameTeacher>Осетрова</LastNameTeacher>
+        <DateStart>28.10.2021</DateStart>
+        <DateEnd>09.11.2021</DateEnd>
+        <TimeStart>18-30</TimeStart>
+        <TimeEnd>21-50</TimeEnd>
+        <End>Зачет</End>
+    </subject>
+
+</lessons>

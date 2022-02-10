@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+
+<lessons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="lessons_XML.xsd">
+    <subject id="a">
+        <name>Основы технологий разетки (HTML и XML)</name>
+        <LastNameTeacher>Кузьмин</LastNameTeacher>
+        <DateStart>2022-02-03</DateStart>
+        <DateEnd>2022-02-08</DateEnd>
+        <TimeStart>18:30:00</TimeStart>
+        <TimeEnd>21:50:00</TimeEnd>
+        <End>Зачет</End>
+    </subject>
+
+    <subject id="b">
+        <name>Transact-SQL</name>
+        <LastNameTeacher>Ямщиков</LastNameTeacher>
+        <DateStart>2022-01-10</DateStart>
+        <DateEnd>2022-01-31</DateEnd>
+        <TimeStart>18:30:00</TimeStart>
+        <TimeEnd>21:50:00</TimeEnd>
+        <End>Экзамен</End>
+    </subject>
+
+    <subject id="с">
+        <name>Разработка Windows-приложений на C#</name>
+        <LastNameTeacher>Осипов</LastNameTeacher>
+        <DateStart>2021-12-09</DateStart>
+        <DateEnd>2021-12-29</DateEnd>
+        <TimeStart>18:30:00</TimeStart>
+        <TimeEnd>21:50:00</TimeEnd>
+        <End>Экзамен</End>
+    </subject>
+
+    <subject id="d">
+        <name>Программирование на C#</name>
+        <LastNameTeacher>Осипов</LastNameTeacher>
+        <DateStart>2021-11-11</DateStart>
+        <DateEnd>2021-12-07</DateEnd>
+        <TimeStart>18:30:00</TimeStart>
+        <TimeEnd>21:50:00</TimeEnd>
+        <End>Зачет</End>
+    </subject>
+
+    <subject id="e">
+        <name>Технологии программирования</name>
+        <LastNameTeacher>Смольянинов</LastNameTeacher>
+        <DateStart>2021-06-10</DateStart>
+        <DateEnd>2021-10-26</DateEnd>
+        <TimeStart>18:30:00</TimeStart>
+        <TimeEnd>21:50:00</TimeEnd>
+        <End>Зачет</End>
+    </subject>
+
+    <subject id="f">
+        <name>Введение в базы данных</name>
+        <LastNameTeacher>Осетрова</LastNameTeacher>
+        <DateStart>2021-10-28</DateStart>
+        <DateEnd>2021-11-09</DateEnd>
+        <TimeStart>18:30:00</TimeStart>
+        <TimeEnd>21:50:00</TimeEnd>
+        <End>Зачет</End>
+    </subject>
+
+</lessons>

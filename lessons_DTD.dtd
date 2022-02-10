@@ -1,0 +1,10 @@
+<!ELEMENT lessons (subject+)>
+<!ATTLIST subject id ID #REQUIRED>
+<!ELEMENT subject (name, LastNameTeacher, DateStart, DateEnd, TimeStart, TimeEnd, End)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT LastNameTeacher (#PCDATA)>
+<!ELEMENT DateStart (#PCDATA)>
+<!ELEMENT DateEnd (#PCDATA)>
+<!ELEMENT TimeStart (#PCDATA)>
+<!ELEMENT TimeEnd (#PCDATA)>
+<!ELEMENT End (#PCDATA)>

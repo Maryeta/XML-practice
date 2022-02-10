@@ -1,0 +1,66 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<myns:lessons xmlns:myns = "http://www.itmo.ru/xml/lessons">
+<sns:lessons xmlns:sns = "http://www.itmo.ru/xml/lit">
+    <myns:subject id="a">
+        <myns:name>Основы технологий разетки (HTML и XML)</myns:name>
+        <myns:LastNameTeacher>Кузьмин</myns:LastNameTeacher>
+        <myns:DateStart>03.02.2022</myns:DateStart>
+        <myns:DateEnd>08.02.2022</myns:DateEnd>
+        <myns:TimeStart>18-30</myns:TimeStart>
+        <myns:TimeEnd>21-50</myns:TimeEnd>
+        <myns:End>Зачет</myns:End>
+        <sns:literature>https://www.w3schools.com/xml/default.asp</sns:literature>
+    </myns:subject>
+
+    <myns:subject id="b">
+        <myns:name>Transact-SQL</myns:name>
+        <myns:LastNameTeacher>Ямщиков</myns:LastNameTeacher>
+        <myns:DateStart>10.01.2022</myns:DateStart>
+        <myns:DateEnd>31.01.2022</myns:DateEnd>
+        <myns:TimeStart>18-30</myns:TimeStart>
+        <myns:TimeEnd>21-50</myns:TimeEnd>
+        <sns:End>Экзамен</sns:End>
+        <sns:literature>https://docs.microsoft.com/ru-ru/sql/sql-server/?view=sql-server-ver15</sns:literature>
+    </myns:subject>
+
+    <myns:subject id="с">
+        <myns:name>Разработка Windows-приложений на C#</myns:name>
+        <myns:LastNameTeacher>Осипов</myns:LastNameTeacher>
+        <myns:DateStart>09.12.2021</myns:DateStart>
+        <myns:DateEnd>29.12.2021</myns:DateEnd>
+        <myns:TimeStart>18-30</myns:TimeStart>
+        <myns:TimeEnd>21-50</myns:TimeEnd>
+        <myns:End>Экзамен</myns:End>
+    </myns:subject>
+
+    <myns:subject id="d">
+        <myns:name>Программирование на C#</myns:name>
+        <myns:LastNameTeacher>Осипов</myns:LastNameTeacher>
+        <myns:DateStart>11.11.2021</myns:DateStart>
+        <myns:DateEnd>07.12.2021</myns:DateEnd>
+        <myns:TimeStart>18-30</myns:TimeStart>
+        <myns:TimeEnd>21-50</myns:TimeEnd>
+        <myns:End>Зачет</myns:End>
+    </myns:subject>
+
+    <myns:subject id="e">
+        <myns:name>Технологии программирования</myns:name>
+        <myns:LastNameTeacher>Смольянинов</myns:LastNameTeacher>
+        <myns:DateStart>06.10.2021</myns:DateStart>
+        <myns:DateEnd>26.10.2021</myns:DateEnd>
+        <myns:TimeStart>18-30</myns:TimeStart>
+        <myns:TimeEnd>21-50</myns:TimeEnd>
+        <myns:End>Зачет</myns:End>
+    </myns:subject>
+
+    <myns:subject id="f">
+        <myns:name>Введение в базы данных</myns:name>
+        <myns:LastNameTeacher>Осетрова</myns:LastNameTeacher>
+        <myns:DateStart>28.10.2021</myns:DateStart>
+        <myns:DateEnd>09.11.2021</myns:DateEnd>
+        <myns:TimeStart>18-30</myns:TimeStart>
+        <myns:TimeEnd>21-50</myns:TimeEnd>
+        <myns:End>Зачет</myns:End>
+    </myns:subject>
+</sns:lessons>
+</myns:lessons>
